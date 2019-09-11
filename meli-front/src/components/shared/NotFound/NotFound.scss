@@ -1,0 +1,15 @@
+@import '../../../styles/variables';
+
+.not-found {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 400px;
+
+  span {
+    font-size: 24px;
+    color: $clear-font;
+  }
+}

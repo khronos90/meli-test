@@ -1,0 +1,23 @@
+@import './styles/variables';
+
+.app-container {
+  min-height: 100vh;
+
+  background-color: $background-color;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-column-gap: 18px;
+    
+    padding: 0 $bg-spacing;
+  }
+}
+
+.content {
+  grid-column-start: 2;
+  grid-column-end: 12;
+}
+

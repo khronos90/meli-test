@@ -1,0 +1,20 @@
+{
+  "short_name": "Meli",
+  "name": "Meli Fend Core test",
+  "icons": [
+    {
+      "src": "logo_ML.png",
+      "sizes": "53x36",
+      "type": "image/png"
+    },
+    {
+      "src": "logo_ML@2x.png.png",
+      "type": "image/png",
+      "sizes": "106x72"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

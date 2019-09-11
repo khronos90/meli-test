@@ -1,0 +1,28 @@
+@import '../../styles/variables';
+
+header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-column-gap: 18px;
+  
+  padding: 0 $bg-spacing;
+
+  background-color: $base-color;
+
+  .content {
+    grid-column-start: 2;
+    grid-column-end: 12;
+
+    display: flex;
+
+    .search-view {
+      padding: $sm-spacing 0;
+      flex-grow: 1;
+      display: inherit;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

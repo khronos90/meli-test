@@ -1,0 +1,11 @@
+@import '../../../styles/variables';
+
+.bread-crumb {
+  padding-top: $md-spacing;
+  padding-bottom: $md-spacing;
+
+  color: $description-font-color;
+
+  font-size: 14px;
+  line-height: $md-spacing;
+}

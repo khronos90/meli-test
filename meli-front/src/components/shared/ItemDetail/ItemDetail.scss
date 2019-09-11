@@ -1,0 +1,74 @@
+@import '../../../styles/variables';
+
+.detail-view {
+  background-color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: $bg-spacing;
+    padding-top: $sm-spacing;
+
+    width: 680px;
+    img {
+      max-width: 680px;
+      max-height: 680px;
+    }
+
+  }
+
+  &__details-container {
+    padding-top: $bg-spacing;
+    padding-right: $bg-spacing;
+    flex-basis: 300px;
+
+    .quantity-sold {
+      font-size: 14px;
+    }
+
+    .item-name {
+      margin-top: $md-spacing;
+      font-size: 24px;
+    }
+
+    .item-cost {
+      margin: $bg-spacing 0;
+      font-size: 46px;
+    }
+  }
+
+  &__description-container {
+    flex-grow: 1;
+    padding-top: $bg-spacing;
+    padding-left: $bg-spacing;
+
+    .description-title {
+      font-size: 28px;
+    }
+
+    .description-content {
+      font-size: 16px;
+      padding: $bg-spacing 0;
+      margin: 0;
+      max-width: 680px;
+    }
+  }
+}
+
+.btn-buy-item {
+  button {
+    font-size: 18px;
+    background-color: $success-btn;
+    color: #FFF;
+    border: 1px;
+    border-radius: 4px;
+    flex-grow: 1;
+    padding: 12px 0;
+    width: 100%;
+  }
+}
